@@ -4,7 +4,7 @@ import sys
 from django.core.management.commands.runserver import Command as runserver
 
 if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "sharedlinks.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "demo.settings")
     runserver.default_port = "8089"
     try:
         from django.core.management import execute_from_command_line
