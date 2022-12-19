@@ -8,7 +8,7 @@ function App() {
 
   function onSubmit(e) {
      e.preventDefault();
-    return fetch('http://localhost:8000/dj-rest-auth/login/', {
+    return fetch('https://localhost:8089/dj-rest-auth/login/', {
       method: 'POST',
       credentials: 'omit',
       headers: {
