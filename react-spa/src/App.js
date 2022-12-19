@@ -8,7 +8,7 @@ function App() {
 
   function onSubmit(e) {
      e.preventDefault();
-    return fetch('https://localhost:8089/dj-rest-auth/login/', {
+    return fetch('https://api3.sotka-test.tk/dj-rest-auth/login/', {
       method: 'POST',
       credentials: 'omit',
       headers: {
